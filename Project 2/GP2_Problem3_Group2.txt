@@ -1,0 +1,601 @@
+Table MANAGER created.
+
+
+Table WORKER created.
+
+Table PHONE created.
+
+
+Table CHEF created.
+
+Table DISH created.
+
+
+Table INGREDIENT created.
+
+Table WAITER created.
+
+
+Table SECTION created.
+
+
+Table REST_TABLE created.
+
+Table CLEANER created.
+
+
+Table EVAL created.
+
+Table EVALUATED created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+       MID NAME                     SALARY                            HOURS_WORKED TITLE              
+---------- -------------------- ---------- --------------------------------------- --------------------
+         1 Kyouko Shirafuji         400000                                       0 Working!! Manager   
+         2 Senzaemon Nakiri         900000                                      40 Totsuki Manager     
+
+
+       WID NAME                     SALARY                            HOURS_WORKED        MID
+---------- -------------------- ---------- --------------------------------------- ----------
+         1 Satou Jun                 20000                                      40          1
+         2 Yachiyo Todoroki          20000                                      35          1
+         3 Aoi Yamada                 2000                                      30          1
+         4 Hiroomi Souma             20000                                      25          1
+         5 Misaki Ayuzawa            20000                                      20          2
+         6 Sanji Vinsmoke            40000                                      42          2
+         7 Erina Nakiri              40000                                      38          2
+         8 Levi Ackerman             20000                                      12          2
+         9 Popura Taneshima          20000                                      30          1
+        10 Soma Yukihira             30000                                      45          2
+        11 Mahiru Inami              20000                                      15          1
+
+       WID NAME                     SALARY                            HOURS_WORKED        MID
+---------- -------------------- ---------- --------------------------------------- ----------
+        12 Maya Matsumoto            20000                                      28          1
+        13 Souta Takanashi           20000                                      17          1
+
+ 13 rows selected 
+
+
+       WID PHONE_NUMB
+---------- ----------
+         1 2919989876
+         2 1313443655
+         3 6015675675
+         4 2414445444
+         5 7016767688
+         6 2613449885
+         7 9216546577
+         8 2812325488
+         9 4119989876
+        10 2513443655
+        11 8095675675
+
+       WID PHONE_NUMB
+---------- ----------
+        12 2514445444
+        13 3016767688
+
+ 13 rows selected 
+
+
+       CID SPECIALTY            TITLE                                            REPLACES_ID
+---------- -------------------- -------------------- ---------------------------------------
+         1 Smoking              Blondie                                                    4
+         4 Intel-Gathering      Mister                                                     1
+         6 Seafood              Mr. Prince                                                 1
+         7 Everything           God Tongue                                                10
+        10 Yukihira Special     Harem King                                                 7
+
+
+NAME                      PRICE        CID                          TIMES_PREPARED
+-------------------- ---------- ---------- ---------------------------------------
+Steak                      1000          1                                      12
+Hamburger                    10          4                                      30
+Fries                         2          4                                      50
+Seabeast Soup                10          6                                      60
+Rice                          5         10                                      90
+Sumire Karaage                5         10                                     100
+Eggs Benedict                 9          7                                      30
+
+ 7 rows selected 
+
+
+DISHNAME             NAME               
+-------------------- --------------------
+Fries                Groovy Spud         
+Fries                Special Seasoning   
+Hamburger            Lettuce             
+Hamburger            Mystery Meat        
+Hamburger            Soggy Bun           
+Hamburger            Special Sauce       
+Rice                 Rice                
+Rice                 Water               
+Seabeast Soup        Grandline Fish      
+Seabeast Soup        Love                
+Seabeast Soup        Soysauce            
+
+DISHNAME             NAME               
+-------------------- --------------------
+Steak                Holy Cow            
+Steak                Hourai Elixir       
+Sumire Karaage       Cheap Chicken       
+Sumire Karaage       Lettuce             
+Sumire Karaage       Rice Tortilla       
+Sumire Karaage       Soysauce            
+
+ 17 rows selected 
+
+       WID                     NUMBER_OF_CUSTOMERS
+---------- ---------------------------------------
+         2                                      60
+         5                                      55
+         9                                      45
+        11                                      10
+        13                                      20
+
+
+                         SECTION_NUMBER        WID
+--------------------------------------- ----------
+                                      1          2
+                                      2          5
+                                      3          9
+                                      4         11
+                                      5         13
+                                      6          5
+                                      7         11
+                                      8          5
+
+ 8 rows selected 
+
+
+                         SECTION_NUMBER                            TABLE_NUMBER                        NUMBER_OF_CHAIRS
+--------------------------------------- --------------------------------------- ---------------------------------------
+                                      1                                       1                                       4
+                                      1                                       2                                       4
+                                      1                                       3                                       6
+                                      2                                       1                                       2
+                                      2                                       2                                       2
+                                      3                                       1                                       6
+                                      3                                       2                                       6
+                                      3                                       3                                       4
+                                      4                                       1                                       4
+                                      4                                       2                                       2
+                                      5                                       1                                       6
+
+                         SECTION_NUMBER                            TABLE_NUMBER                        NUMBER_OF_CHAIRS
+--------------------------------------- --------------------------------------- ---------------------------------------
+                                      5                                       2                                       8
+                                      6                                       1                                       4
+                                      7                                       1                                       2
+                                      7                                       2                                       2
+                                      8                                       1                                       2
+                                      8                                       2                                       2
+
+ 17 rows selected 
+
+
+       CID SPECIALTY          
+---------- --------------------
+         3 Breaking Things     
+        12 Normal              
+         8 Titans              
+
+
+       EID DESCRIPTION                                                                                                                                                                                                                                                      EDATE    
+---------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+         1 Cooks well but smokes too much                                                                                                                                                                                                                                   10/01/2016
+         2 Knows everybodys personal information but has no friends                                                                                                                                                                                                         10/01/2016
+         3 Pretty and works well but has a sword??                                                                                                                                                                                                                          10/01/2016
+         4 Very enthusiastic and short                                                                                                                                                                                                                                      10/01/2016
+         5 Punched me and I hate her now                                                                                                                                                                                                                                    10/01/2016
+         6 Sometimes he dresses up like a girl but why                                                                                                                                                                                                                      10/01/2016
+         7 Always breaks plates and trips                                                                                                                                                                                                                                   10/01/2016
+         8 What a normal person                                                                                                                                                                                                                                             10/01/2016
+         9 Always wearing a maid outfit                                                                                                                                                                                                                                     10/02/2016
+        10 Flirts with too many women                                                                                                                                                                                                                                       10/02/2016
+        11 Does her job well, Best Girl                                                                                                                                                                                                                                     10/02/2016
+
+       EID DESCRIPTION                                                                                                                                                                                                                                                      EDATE    
+---------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+        12 Too short                                                                                                                                                                                                                                                        10/02/2016
+        13 Makes weird things                                                                                                                                                                                                                                               10/02/2016
+        14 I hate my job!                                                                                                                                                                                                                                                   10/03/2016
+
+ 14 rows selected 
+
+
+       WID        EID
+---------- ----------
+         1          1
+         2          3
+         3          7
+         4          2
+         5          9
+         6         10
+         7         11
+         8         12
+         9          4
+        10         13
+        11          5
+
+       WID        EID
+---------- ----------
+        12          8
+        13          6
+
+ 13 rows selected 
+
+NAME               
+--------------------
+Mahiru Inami        
+Souta Takanashi     
+Misaki Ayuzawa      
+
+
+AVG(PRICE)
+----------
+   1.5E+02
+
+
+NAME                 COUNT(WID)
+-------------------- ----------
+Kyouko Shirafuji              8
+Senzaemon Nakiri              5
+
+
+NAME               
+--------------------
+Misaki Ayuzawa      
+Mahiru Inami        
+
+
+Error starting at line : 282 in command -
+insert into Manager values(1, 'Komatsu', 3300000.90, 0, 'Toriko Manager')
+Error report -
+SQL Error: ORA-00001: unique constraint (SALA9338.SYS_C0082157) violated
+00001. 00000 -  "unique constraint (%s.%s) violated"
+*Cause:    An UPDATE or INSERT statement attempted to insert a duplicate key.
+           For Trusted Oracle configured in DBMS MAC mode, you may see
+           this message if a duplicate entry exists at a different level.
+*Action:   Either remove the unique restriction or do not insert the key.
+Error starting at line : 285 in command -
+insert into Dish values('Meatloaf', 12.00, 2, 30)
+Error report -
+SQL Error: ORA-02291: integrity constraint (SALA9338.SYS_C0082166) violated - parent key not found
+02291. 00000 - "integrity constraint (%s.%s) violated - parent key not found"
+*Cause:    A foreign key value has no matching primary key value.
+*Action:   Delete the foreign key or add a matching primary key.
