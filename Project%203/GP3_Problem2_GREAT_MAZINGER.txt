@@ -1,0 +1,27 @@
+CREATE PROCEDURE insertPerformer
+    (name IN VARCHAR2, avgexp IN NUMBER, age IN NUMBER)
+AS
+BEGIN
+    INSERT INTO Performer(pname, years_of_experience, age)
+    VALUES(name, avgexp, age);
+END;
+
+//--//-- Case 1 for the Java part.
+//ResultSet is null-safe!
+ResultSet rs = stmt.executeQuery("SELECT AVG(years_of_experience) FROM Performer WHERE age BETWEEN 25 AND 45");
+
+CallableStatement pstmt = conn.prepareCall("(insertPerformer(?,?,?))"); //call procedure
+pstmt.setString(1, "John Smith");//this be a guess
+
+if (rs.getFloat(1) < 1)
+{
+    pstmt.setInt(2, 17);
+}
+else
+{
+    pstmt.setInt(2, rs.getFloat(1);
+}
+
+pstmt.setInt(3, 35);
+pstmt.executeUpdate();
+pstmt.close();    
