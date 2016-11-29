@@ -9,8 +9,12 @@ B: AC
 F: ACDE
 ADE: FG
 
-Other:
+ALL? single attribute A (X -> A) Functional Dependencies
+A: A, B, C
+ADE: A, D, E
 B: A, C
+F: A, C, D, E
+ADE: F, G
 
 -------------------------------------------------------------------------------------
 Closure of attributes (if a: R, then it is a superkey)
@@ -22,15 +26,18 @@ E: E
 F: ABCDEFG (CANDIDATE: single attribute)
 G: G
 ADE: ABCDEFG (CANDIDATE: no subset of ADE is a candidate key)
+BDE: ABCDEFG (CANDIDATE: no subset of BDE is a candidate key)
 AD: ABCD
 AE: ABCE
+BD: ABCD
+BE: ABCE
 DE: DE
 
-NOTE: Combination of ABCDEFG with F or ADE will be super keys but not candidate keys
+NOTE: Combination of ABCDEFG with F, ADE or BDE will be super keys but not candidate keys
 -------------------------------------------------------------------------------------
 
-a) F and ADE are the only candidate keys. Work shown above
+a) F, ADE, BC are the only candidate keys. Work shown above
 b)
 1NF: YES: Given
 2NF: NO: Attribute B is functionly determined by A which is NOT a candidate key
-3NF: NO: Attribute A is functionly determined by B which is NOT a primary attribute
+3NF: YES: All attributes X -> A (A is single) X = superkey or primary attribute
