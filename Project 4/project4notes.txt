@@ -1,0 +1,36 @@
+Problem 1
+=================================================
+Relational scheme (attributes are atomic):
+R (A, B, C, D, E, F, G)
+
+Given Functional Dependencies
+A: B
+B: AC
+F: ACDE
+ADE: FG
+
+Other:
+B: A, C
+
+-------------------------------------------------------------------------------------
+Closure of attributes (if a: R, then it is a superkey)
+A: ABC
+B: ABC
+C: C
+D: D
+E: E
+F: ABCDEFG (CANDIDATE: single attribute)
+G: G
+ADE: ABCDEFG (CANDIDATE: no subset of ADE is a candidate key)
+AD: ABCD
+AE: ABCE
+DE: DE
+
+NOTE: Combination of ABCDEFG with F or ADE will be super keys but not candidate keys
+-------------------------------------------------------------------------------------
+
+a) F and ADE are the only candidate keys. Work shown above
+b)
+1NF: YES: Given
+2NF: NO: Attribute B is functionly determined by A which is NOT a candidate key
+3NF: NO: Attribute A is functionly determined by B which is NOT a primary attribute
