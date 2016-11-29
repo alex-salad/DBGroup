@@ -1,0 +1,224 @@
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 1
+Option 1 selected: Adding Performer
+Enter Performer ID: 8
+Enter Performer Name: Marbozir
+Enter Performer Age: 35
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+|   8 |             Marbozir |                   15 |  35 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 1
+Option 1 selected: Adding Performer
+Enter Performer ID: 9
+Enter Performer Name: Joey
+Enter Performer Age: 22
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+|   8 |             Marbozir |                   15 |  35 |
+|   9 |                 Joey |                   12 |  22 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 1
+Option 1 selected: Adding Performer
+Enter Performer ID: 10
+Enter Performer Name: Miguel
+Enter Performer Age: 23
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+|  10 |               Miguel |                   12 |  23 |
+|   8 |             Marbozir |                   15 |  35 |
+|   9 |                 Joey |                   12 |  22 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 2
+Option 2 selected: Adding Performer
+Enter Performer ID: 11
+Enter Performer Name: Dan
+Enter Performer Age: 24
+Enter Director ID: 1
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+|  10 |               Miguel |                   12 |  23 |
+|  11 |                  Dan |                    6 |  24 |
+|   8 |             Marbozir |                   15 |  35 |
+|   9 |                 Joey |                   12 |  22 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 2
+Option 2 selected: Adding Performer
+Enter Performer ID: 12
+Enter Performer Name: Rhett
+Enter Performer Age: 39
+Enter Director ID: 2
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+|  10 |               Miguel |                   12 |  23 |
+|  11 |                  Dan |                    6 |  24 |
+|  12 |                Rhett |                   16 |  39 |
+|   8 |             Marbozir |                   15 |  35 |
+|   9 |                 Joey |                   12 |  22 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 2
+Option 2 selected: Adding Performer
+Enter Performer ID: 13
+Enter Performer Name: Link
+Enter Performer Age: 38
+Enter Director ID: 3
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 3
+Option 3 selected.
+-----------------------------------------------------------
+| PID |                PNAME |  YEARS_OF_EXPERIENCE | AGE |
+-----------------------------------------------------------
+|   1 |               Morgan |                   48 |  67 |
+|   2 |                 Cruz |                   14 |  28 |
+|   3 |                Adams |                    1 |  16 |
+|   4 |                Perry |                   18 |  32 |
+|   5 |                Hanks |                   36 |  55 |
+|   6 |                Hanks |                   15 |  24 |
+|   7 |                Lewis |                   13 |  32 |
+|  10 |               Miguel |                   12 |  23 |
+|  11 |                  Dan |                    6 |  24 |
+|  12 |                Rhett |                   16 |  39 |
+|   8 |             Marbozir |                   15 |  35 |
+|   9 |                 Joey |                   12 |  22 |
+|  13 |                 Link |                   33 |  38 |
+-----------------------------------------------------------
+Option 1: Insert performer with: id, name, and age
+Option 2: Insert performer with: id, name, age, and did
+Option 3: Display all performer information
+Option 4: Quit
+
+Enter Option Number: 4
+Option 4 selected: Quiting Program. Have a nice day :)

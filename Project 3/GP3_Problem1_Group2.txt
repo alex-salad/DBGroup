@@ -1,0 +1,20 @@
+Index MOVIEBYGENRE created.
+
+
+GENRE              
+--------------------
+Animation           
+
+PNAME                       PID
+-------------------- ----------
+Hanks                         5
+
+
+GENRE                                         AVG(X.MINUTES)
+-------------------- ---------------------------------------
+Action                                                   125
+Animation                                                104
+Comedy                                                    89
+Drama                                                 125.75
+Sci-Fi                                                   115
+
