@@ -4,3 +4,55 @@
 
     Factors to consider in gathering data from the web and social media include verification of what is often error-prone data. It is necessary to know if there are multiple sources and accounts on a particular piece of information before one can deem that it is, in fact, true. Additionally, the person or organization we obtain the data from is very important -- in the face of social media, one is more likely to get accurate information from BBC News' Facebook page over Sean Murray's Twitter feed. BBC News generally has a better reputation over anyone's posts that are limited to 120 characters. While BBC News cannot be the only page to see on the field of social media, it is thus imperative that fabricated information is identified.
     Because the CDC is a well-reputed government facility, users will easily trust the information given out by the CDC and CDC-related software, regardless of their age and background. If misinformation began spreading to these users because the database system picked up false or fabricated information about Zika, the health of these users (mostly unborn children in the wombs of pregnant users) could potentially be at risk (and die in childbirth). The media would be quick to cover at how wrong information was sent by the CDC, and CDC's reputation would receive a deadly blow, resulting in a change of employees or even disbanding entirely so that the government can save face. As for society in general, they would begin a distrust towards the government and the lies it has begun spreading, if these people haven't already been crippled by their incapability of giving birth to children with normal-sized heads. 
+
+### Part B
+    Suppose we began with an initial table, VictimLocation(vicname, country, numSymptoms, isdead) where vicname is the victim's name, country is the location where the victim resided at, and numSymptoms is the number of symptoms the victim had over the course of being infected with zika. We can split the table into two, namely, VictimLocationB(vicname, country, isdead) and CountrySymptom(country, numSymptoms). The first table is suffixed with a B to differentiate it from the original table (though, it is not necessary in practice).
+    An example of the contents would be as follows (in Markdown format):
+
+#### VictimLocation
+| vicname | country | numSymptoms | isdead |
+|=========|=========|=============|========|
+| George  | France  | 5           | True   |
+| Bob     | India   | 3           | True   |
+| Sarah   | UK      | 1           | True   |
+| Nerven  | Asgard  | 9           | False  |
+| Vicki   | USA     | 4           | False  |
+| Vestus  | Kenya   | 2           | False  |
+
+#### VictimLocationB
+| vicname | country | isdead |
+|=========|=========|========|
+| George  | France  | True   |
+| Bob     | India   | True   |
+| Sarah   | USA     | True   |
+| Nerven  | Asgard  | False  |
+| Vicki   | USA     | False  |
+| Vestus  | Kenya   | False  |
+
+#### CountrySymptom
+| country | numSymptoms |
+|=========|=============|
+| France  | 5           |
+| India   | 3           |
+| USA     | 1           |
+| Asgard  | 9           |
+| USA     | 4           |
+| Kenya   | 2           |
+
+    With these tables and their lossy join decomposition, we are forced to lose the original data from the first table. When using natural join on these two latter tables, we would get misleading information. The following table results from a natural join.
+
+| vicname | country | numSymptoms | isdead |
+|=========|=========|=============|========|
+| George  | France  | 5           | True   |
+| Bob     | India   | 3           | True   |
+| Sarah   | USA     | 1           | True   |
+| Nerven  | Asgard  | 9           | False  |
+| Sarah   | USA     | 4           | True   |
+| Vicki   | USA     | 1           | False  |
+| Vestus  | Kenya   | 2           | False  |
+| Vicki   | USA     | 4           | False  |
+
+    From the natural join, we appear to have extra tuples -- and these extra tuples have the wrong information. How can a single person have two different numbers of symptoms? How truly odd.
+    When users see this database, they will mostly be confused, but they can easily point out a flaw. A lossy decomposition does not directly affect users around the world, but they will become skeptical of the integrity of CDC's systems. The CDC, however, is affected more, because now they have no idea if Vicki has either 1 or 4 symptoms -- and if it will lead to a correlation in being dead in a certain country like USA. This indirectly affects users as the CDC will be unable to come up with a proper statement of where countries prone to zika might be found. In influencing society, people will be uncertain of where the danger might be, and the world then risks infecting millions of people simply because of a mistake made by the CDC.
+
+
